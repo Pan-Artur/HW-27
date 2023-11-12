@@ -18,12 +18,12 @@ ul {
     position: relative;
 
     transform: translateX(-91%);
-    transition-duration: 1500ms;
+    transition-duration: 1000ms;
 }
 
 .main:hover {
     transform: translateX(0%);
-    transition-duration: 1500ms;
+    transition-duration: 1000ms;
 }
 
 .main-link::before {
@@ -42,10 +42,14 @@ ul {
     align-items: center;
     color: white;
     font-size: 20px;
+
+    transition-duration: 1000ms;
 }
 
 .main-link:hover {
     color: darkorange;
+
+    transition-duration: 1000ms;
 }
 
 .main-item {
